@@ -1,0 +1,36 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs (re-run notebooks to reproduce)
+rul_predictions.csv
+maintenance_results.csv
+maintenance_summary.csv
+
+# Large files — exceed GitHub's 25MB limit
+# Run notebook 02 to regenerate .npy files
+# Run notebook 03 to regenerate the trained model
+data/X_train.npy
+data/X_test.npy
+data/y_train.npy
+data/y_test.npy
+model/lstm_rul_model.keras
